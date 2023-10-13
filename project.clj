@@ -2,7 +2,7 @@
 
 (defproject gaeclj-auth "0.1.0"
   :description "gaeclj-auth provides clojure helpers for auth API in Google App Engine"
-  :javac-options ["-target" "1.7" "-source" "1.7" "-Xlint:-options"]
+  :javac-options ["-target" "1.8" "-source" "1.8" "-Xlint:-options"]
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.logging "0.3.1"]
                  [org.clojure/data.json "0.2.6"]
