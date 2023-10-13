@@ -1,4 +1,4 @@
-(def appengine-version "1.9.48")
+(def appengine-version "2.0.20")
 
 (defproject gaeclj-auth "0.1.0"
   :description "gaeclj-auth provides clojure helpers for auth API in Google App Engine"
@@ -21,6 +21,6 @@
   :profiles
   {:dev
    {:dependencies [[com.google.appengine/appengine-testing ~appengine-version]
-                   [com.google.appengine/appengine-api-labs ~appengine-version]
+                   ;[com.google.appengine/appengine-api-labs ~appengine-version]
                    [com.google.appengine/appengine-api-stubs ~appengine-version]
                    [com.google.appengine/appengine-tools-sdk ~appengine-version]]}})

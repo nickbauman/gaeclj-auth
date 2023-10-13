@@ -2,7 +2,6 @@
 (:import [com.google.appengine.tools.development.testing 
           LocalServiceTestConfig 
           LocalServiceTestHelper
-          LocalFileServiceTestConfig 
           LocalDatastoreServiceTestConfig
           LocalTaskQueueTestConfig
           LocalAppIdentityServiceTestConfig
