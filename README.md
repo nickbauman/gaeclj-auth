@@ -6,14 +6,14 @@ Clojure helpers for Google App Engine's auth api
 
 ## Prerequisites
 
-You will need the [Java SDK for AppEngine and its dependencies](https://cloud.google.com/appengine/docs/standard/java/download). 
+You will need the [Java SDK for AppEngine and its dependencies](https://cloud.google.com/appengine/docs/standard/java-gen2/runtime). 
 
 ## Using
 
 Leiningen Clojars dependency:
 
 ```
-[gaeclj-auth "0.1.0"]
+[gaeclj-auth "0.1.1"]
 ```
 ## Runing the automated tests
 
